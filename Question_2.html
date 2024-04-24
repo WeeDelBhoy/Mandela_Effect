@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MANDELA EFFECT QUIZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>THE MANDELA EFFECT QUIZ</h1>
+    </header>
+    <main class="body-of-text">
+        <!-- Question 2 content -->
+        <h2>Question 2:</h2>
+        <p>In Forrest Gump, what did he state that his mama always used to say?</p>
+        <ul>
+            <li><label><input type="radio" name="q2" value="Answer1" onchange="saveAnswer('q2', 'Answer1')">Life was like a box of chocolates</label></li>
+            <li><label><input type="radio" name="q2" value="Answer2" onchange="saveAnswer('q2', 'Answer2')">Life is always like a box of chocolates</label></li>
+            <li><label><input type="radio" name="q2" value="Answer3" onchange="saveAnswer('q2', 'Answer3')">Life is like a box of chocolates</label></li>
+            <li><label><input type="radio" name="q2" value="Answer4" onchange="saveAnswer('q2', 'Answer4')">Life isn't like a box of chocolates</label></li>
+        </ul>
+        <img src="https://www.thefilmagazine.com/wp-content/uploads/2016/03/30.gif" alt="Forrest Gump" class="Forrest_Gump">
+        <a href="Question_1.html" class="prev-question">Previous Question</a>
+        <a href="Question_3.html" class="next-question" data-question="q2">Next Question</a>
+    </main>
+    <audio id="dramatic_music" autoplay loop>
+        <source src="dramatic_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <footer>
+        <hr />
+        <p class="copyright">&copy; 2024 Dale Colman</p>
+    </footer>
+    <script src="javascript.js"></script>
+    <script src="audio.js"></script>
+</body>
+</html>

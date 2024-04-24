@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MANDELA EFFECT QUIZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>THE MANDELA EFFECT QUIZ</h1> 
+    </header>
+    <main class="body-of-text">
+        <h2>Final Score:</h2>
+        <p id="final-score" class="final-score"></p> <!-- Added this to display the final score -->
+        <a href="index.html" class="Home_Page">Home</a>
+        <a href="Answers.html" class="Answers">Answers</a>
+
+        <div class="picture-container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM240cTI1eXdhNGM4MW03cXI5cmg5NGExOWl3dDczNHpvd2t0YWlnYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QTAVEex4ANH1pcdg16/giphy.gif" alt="Picture 1">
+            <img src="https://media1.tenor.com/m/VzaYl7OZMJEAAAAC/jolly-mood-nelson-mandela.gif" alt="Picture 2">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHhhbmxuNHV0Y2ZmcGVsNXh0M3F1aTI3Z3YwNGhmZnZiZHFib3ZydiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/mGK1g88HZRa2FlKGbz/giphy.webp" alt="Picture 3">
+        </div>
+        
+    </main>
+    <audio id="Congrats_music" autoplay loop>
+        <source src="Congrats_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <footer>
+        <hr />
+        <p class="copyright">&copy; 2024 Dale Colman</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script>
+        //Call displayFinalScore function when the page loads
+        window.onload = function() {
+            var finalScore = calculateScore();
+            displayFinalScore(finalScore);
+        };
+    </script>
+</body>
+</html>

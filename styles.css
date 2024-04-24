@@ -1,0 +1,460 @@
+/* Style for mandela effect quiz */
+
+.index_text {
+    padding: 20px;
+    text-align: left;
+    font-size: x-large;
+    margin-right: 30%;
+}
+
+.Answers_text {
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+    text-align: left;
+    font-size: larger;
+    display: inline-block;
+    background-color: #f0f0f0; /* Light background color */
+    border-radius: 60px; /* Rounded corners */
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.index_body {
+    background-color: #f5f5dc;
+    color: #000080;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    border: 4px solid #000080; 
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main_title {
+    text-align: left;
+    padding: 20px;
+}
+
+.mandela-effect-link {
+    position: absolute;
+    bottom: 11%;
+    left: 2%;
+    padding: 2%;
+    background-color: #d18802;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.About_website {
+    position: absolute;
+    bottom: 11%;
+    right: 2%;
+    padding: 2%;
+    background-color: #d72c0a;
+    color: #000000; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.About_website:hover {
+background-color: #891902;
+}
+
+.Answers {
+    position: absolute;
+    bottom: 9%;
+    right: 2%;
+    padding: 2%;
+    background-color: #f705d3;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Answers:hover {
+    background-color: #bc0288;
+    }
+
+.Home_Page_About {
+    position: absolute;
+    bottom: 9%;
+    right: 2%;
+    padding: 2%;
+    background-color: #03951b;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Home_Page_About:hover {
+    background-color: #014a0d;
+}
+
+.Nelson_face {
+    position: fixed; /* Position the image relative to the viewport */
+    top: 47%; /* Move the top of the image to the vertical center */
+    right: 0; /* Move the left of the image to the horizontal center */
+    transform: translate(0%, -50%);
+    width: 36%;
+    z-index: -1; 
+}
+
+.start-quiz-button {
+    display: inline-block;
+    width: 20%; /* Set the width of the button in percentage */
+    margin: 20px 70%; /* Centers the button horizontally and add space between the button and the footer */
+    padding: 20px; 
+    background-color: #06d003; 
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 27px;
+    transition: background-color 0.3s;
+    text-align: center; 
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}   
+
+.start-quiz-button:hover {
+    background-color: #03751a;
+}
+
+body {
+    background-color: #f5f5dc;
+    color: #000080;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    border: 4px solid #000080; 
+    box-sizing: border-box;
+    position: relative;
+}
+
+.body-of-text {
+    padding: 20px; 
+    max-width: 70%; 
+    margin: auto; 
+    text-align: center;
+    font-size: larger;
+}
+
+.About_text {
+    padding: 20px;
+    max-width: 70%;
+    margin: auto; 
+    text-align: center;
+    font-size: larger;
+    background-color: #f0f0f0; /* Light background color */
+    border-radius: 60px; /* Rounded corners */
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3); /* shadow */
+    line-height: 1.5;
+}
+
+.nelson_text {
+    max-width: 70%;
+    margin: 0 auto; 
+    padding: 2%;
+    text-align: center;
+    color:rgb(1, 3, 5)
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px, 0;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline;
+    background: linear-gradient(to right,#0080ff, #0000ff, #8000ff, #ff00ff, #ff0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide the text color */
+    animation: fade 1s ease-in forwards;
+    opacity: 0;
+    -webkit-text-stroke: 2px black; /* Adds black outline */
+    text-stroke: 2px black; /* used as a backup if the line above is not supported*/
+    
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.mandela-effect-link:hover {
+    background-color: #7b5001;
+}
+
+.Home_Page {
+    position: absolute;
+    bottom: 9%;
+    left: 2%;
+    padding: 2%;
+    background-color: #03951b;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Home_Page-link:hover {
+    background-color: #014a0d;
+}
+
+.kitkat { /* unused as plans changed*/
+    color: red;
+}
+
+.pokemon { /* unused as plans changed*/
+    color: goldenrod;
+}
+
+.pikachu-tails, .Chocolate { /* unused as plans changed*/
+    position: absolute;
+    width: 25%; 
+    height: auto;
+    top: 5%;
+}
+
+.pikachu-tails { /* unused as plans changed*/
+    right: 2%;
+    transform:rotate(12deg);
+
+}
+
+
+.Chocolate { /* unused as plans changed*/
+    position: fixed; /* Position the image relative to the viewport */
+    top: 50%; /* Move the top of the image to the vertical center */
+    right: 0;
+    transform: translate(0, -50%);
+    width: 25%;
+}
+
+.nelson {
+    position:fixed;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.3;
+    background-position:center;
+    background-size:cover;
+}
+
+.Fred {
+    position: relative;
+    width: 39%;
+    height: auto;
+    margin: 50px 50px;
+    margin-left: 490px;
+}
+
+.Fred2, .Fred3 {
+    position: absolute;
+    width: 15%; 
+    height: auto; 
+    top: 5%; 
+}
+
+.Fred2 {
+    right: 2%; 
+    transform:rotate(10deg);
+
+}
+
+.Fred3 {
+    left: 2%; 
+    transform:rotate(-10deg);
+}
+
+.tony_tiger {
+    position: absolute;
+    width: 25%; 
+    height: auto; 
+    top: 25%;
+    margin-left: 50px;
+
+}
+
+.Monopoly_Man {
+    position: absolute;
+    width: 25%; /
+    height: auto; 
+    top: 5%; 
+    right: 1%; 
+}
+
+
+.Darth_Vader {
+    position: absolute;
+    max-width: 50%;
+    bottom: 50; 
+    left: 50%; 
+    transform: translateX(-50%); /* Centers it horizontally */
+}
+
+@media (max-width: 768px) { /* not sure of this is needed but it works so im leaving it in */
+    .Darth_Vader {
+        position: absolute;
+        max-width: 50%;
+        bottom: auto; /* Remove bottom positioning */
+        top: 70%; /* Position the GIF 50% from the top of the viewport */
+        left: 50%; /* Center the GIF horizontally */
+        transform: translate(-50%, -50%); /* Center the GIF vertically and horizontally */
+    }
+}
+
+.Cruella, .Snow_White, .Monopoly_gif, .Looney_gif, .Oliver_Twist {
+    position: relative;
+    width: 58%; 
+    height: auto; 
+    margin: 20px auto; /* Center the image horizontally and add margin */
+    z-index: 1; /* Ensure it stays above other elements */
+}
+
+.Frosties {
+    position: relative;
+    width: 32%;
+    height: auto;
+    margin: 50px 50px;
+    margin-left: 520px;
+    z-index: 1; /* Ensure it stays above other elements */
+}
+.take_a_break {
+    width: 65%;
+}
+
+
+ul {
+    list-style-type: none; /* Removes the bullet points next to answers */
+}
+
+
+.well_done {
+    position: absolute;
+    top: 50%; /* Position at the vertical center */
+    right: 5%; /* Position at the right edge of the screen */
+    transform: translateY(-50%); /* Center vertically */
+    width: 50%; 
+}
+
+
+.prev-question {
+    position: absolute;
+    top: 50%; /* Position at the vertical center */
+    left: 5%; /* Position at the left edge of the screen */
+    transform: translateY(-50%); /* Centers vertically */
+    padding: 10px 20px; 
+    background-color: #e67700;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.prev-question:hover {
+    background-color: #bc5f08; 
+}
+
+.next-question {
+    position: absolute;
+    top: 50%; 
+    right: 5%; /* Position at the right edge of the screen */
+    transform: translateY(-50%); /* Centers vertically */
+    padding: 10px 20px;
+    background-color: #06bb7c;
+    color: #000000; 
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 18px 12px rgba(0, 0, 0, 0.3);
+}
+
+.next-question:hover {
+    background-color: #058f30; 
+}
+
+
+#submit-btn {
+    position: absolute;
+    top: 320px; /* Adjust the top position */
+    right: 10px; /* Adjust the right position */
+    padding: 12px 24px; 
+    background-color: #06bb7c;
+    color: #020202; /* Change text color */
+    border-radius: 20px; /* Adjust border-radius */
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust box shadow */
+    font-size: 16px; /* Adjust font size */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#submit-btn:hover {
+    background-color: #058f30;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style for the copyright text */
+.copyright {
+    font-size: 0.8em; /* Smaller font size than the rest */
+    color: #000000;
+    margin: auto;
+    margin-top: 15px; /* Add margin to separate from the line */
+    
+}
+
+/* style for 3 gifs in a row at the final score page*/
+
+.picture-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Center the container horizontally */
+    height: 200px;
+    padding-bottom: 40px;
+}
+
+.picture-container img {
+    max-width: 60%;
+    height: auto;
+    margin: 0 5px; /* Add space horizontally between each image */
+}
+
+
+
